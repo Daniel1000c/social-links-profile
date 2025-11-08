@@ -1,0 +1,91 @@
+/* ==========================================================================
+   GOOGLE FONT IMPORT
+   ========================================================================== */
+/*Inter*/
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ==========================================================================
+   CSS VARIABLES & RESET
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*BODY FORMATTING*/
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 14px;
+}
+/* ==========================================================================
+   SOCIALS CARD FORMATTING
+   ========================================================================== */
+
+/*Format card body*/
+.socials-card {
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 1em;
+}
+
+/*Format social img*/
+.socials-card > img {
+  border-radius: 50%;
+  width: 35%;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+/*Format social title*/
+.social-title {
+  margin-bottom: 5px;
+}
+
+/*Format body text color*/
+.social-title,
+button,
+.social-quote {
+  color: #fff;
+}
+
+/*Format social location*/
+.creator-location {
+  color: hsl(75, 94%, 57%);
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/*Format quote text*/
+.social-quote {
+  margin-bottom: 25px;
+  font-size: 0.8rem;
+}
+
+/*Format button container*/
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*Format buttons*/
+button {
+  background-color: hsl(0, 0%, 20%);
+  display: inline-block;
+  width: 100%;
+  border: none;
+  border-radius: 0.5em;
+  padding: 15px;
+  font-weight: 600;
+}
